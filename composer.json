@@ -1,0 +1,23 @@
+{
+    "name": "sminnee/silverstripe-microacl",
+    "description": "Experimental ACL system for Silverstripe based on Permission codes",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sam Minnee",
+            "email": "sam@silverstripe.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "Sminnee\\MicroACL\\": "src/"
+        }
+    }
+}
