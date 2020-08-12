@@ -4,7 +4,8 @@
     "type": "silverstripe-vendormodule",
     "require": {
         "silverstripe/framework": "^4",
-        "silverstripe/tagfield": "^2.5"
+        "silverstripe/tagfield": "^2.5",
+        "unclecheese/display-logic": "^2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
